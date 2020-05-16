@@ -27,9 +27,11 @@ Take the domain and navigate to see the application result.
 From CLI:
 -------
 Download and install the Heroku CLI.
+
 $ heroku login
 
 Create a new Git repository
+
 Initialize a git repository in a new or existing directory
 
 $ cd my-project/
@@ -37,12 +39,17 @@ $ git init
 $ heroku git:remote -a <appname>
 
 Deploy your application
+
 Commit your code to the repository and deploy it to Heroku using Git.
 
 $ git add .
+
 $ git commit -am "make it better"
+
 $ git push heroku master
+
 Extra Tips:
+
 Maintainence mode:
 =================
 If you’re deploying a large migration or need to disable access to your application for some length of time, you can use Heroku’s built in maintenance mode. It will serve a static page to all visitors, while still allowing you to run rake tasks or console commands.
