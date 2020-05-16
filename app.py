@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Welcome to deployed app updated again!"
+    return "Welcome to deployed app updated to test!"
 
 
 
