@@ -1,4 +1,4 @@
-# Heroku-Flask-Deploy
+
 ## Deployement Flask App in heroku:
 
 ### Mandatory Files
@@ -51,3 +51,5 @@ Commit your code to the repository and deploy it to Heroku using Git.
 ### If you want to shutdown the app
 
     heroku ps:scale web=0 --app myAppName
+    
+ This sample deployed in heroku can be accessed by [here](https://itsflaskapp.herokuapp.com/)
